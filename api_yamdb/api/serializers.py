@@ -4,7 +4,6 @@ from django.shortcuts import get_object_or_404
 from django.utils import timezone
 from rest_framework import serializers
 from rest_framework_simplejwt.tokens import AccessToken
-
 from reviews.models import (ADMIN, ROLE_CHOICES, Category, Comment, Genre,
                             Review, Title)
 
