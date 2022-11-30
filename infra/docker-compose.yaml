@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: shottab/api_yamdb:v1.0.1
+    image: shottab/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
