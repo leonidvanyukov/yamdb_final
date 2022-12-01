@@ -54,5 +54,9 @@ docker-compose up -d --build
 ```bash
 docker-compose exec web python manage.py dumpdata > fixtures.json
 ```
+
+## Ссылка на проект
+http://84.201.129.17/admin/
+
 ## Автор
 - Леонид
